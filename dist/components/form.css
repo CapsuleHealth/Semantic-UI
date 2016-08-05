@@ -54,9 +54,9 @@
 
 .ui.form .field > label {
   display: block;
-  margin: 0em 0em 0.28571429rem 0em;
+  margin: 0em 0em 0.33333333rem 0em;
   color: #163D6A;
-  font-size: 0.92857143em;
+  font-size: 1.08333333em;
   font-weight: bold;
   text-transform: none;
 }
@@ -103,7 +103,7 @@
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
   line-height: 1.2142em;
-  padding: 0.67861429em 1em;
+  padding: 0.80956667em 1.16666667em;
   font-size: 1em;
   background: #FFFFFF;
   border: none;
@@ -119,7 +119,7 @@
   margin: 0em;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  padding: 0.78571429em 1em;
+  padding: 0.91666667em 1.16666667em;
   background: #FFFFFF;
   border: none;
   outline: none;
@@ -162,7 +162,7 @@
   border: none;
   border-radius: none;
   box-shadow: 0em 0em 0em 0em transparent inset;
-  padding: 0.62em 1em;
+  padding: 0.62em 1.16666667em;
   color: #163D6A;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
   transition: color 0.1s ease, border-color 0.1s ease;
@@ -734,9 +734,9 @@
   margin-bottom: 0em;
 }
 .ui.form .grouped.fields > label {
-  margin: 0em 0em 0.28571429rem 0em;
+  margin: 0em 0em 0.33333333rem 0em;
   color: #163D6A;
-  font-size: 0.92857143em;
+  font-size: 1.08333333em;
   font-weight: bold;
   text-transform: none;
 }
@@ -970,7 +970,7 @@
   margin-top: 0em;
   margin-bottom: 0em;
   vertical-align: baseline;
-  font-size: 0.92857143em;
+  font-size: 1.08333333em;
   font-weight: bold;
   color: #163D6A;
   text-transform: none;
@@ -997,7 +997,7 @@
 /* Label */
 .ui.form .inline.fields .field > :first-child,
 .ui.form .inline.field > :first-child {
-  margin: 0em 0.85714286em 0em 0em;
+  margin: 0em 1em 0em 0em;
 }
 .ui.form .inline.fields .field > :only-child,
 .ui.form .inline.field > :only-child {
@@ -1023,28 +1023,28 @@
 ---------------------*/
 
 .ui.mini.form {
-  font-size: 0.71428571rem;
+  font-size: 0.83333333rem;
 }
 .ui.tiny.form {
-  font-size: 0.85714286rem;
+  font-size: 1rem;
 }
 .ui.small.form {
-  font-size: 0.92857143rem;
+  font-size: 1.08333333rem;
 }
 .ui.form {
   font-size: 1rem;
 }
 .ui.large.form {
-  font-size: 1.14285714rem;
+  font-size: 1.33333333rem;
 }
 .ui.big.form {
-  font-size: 1.28571429rem;
+  font-size: 1.5rem;
 }
 .ui.huge.form {
-  font-size: 1.42857143rem;
+  font-size: 1.66666667rem;
 }
 .ui.massive.form {
-  font-size: 1.71428571rem;
+  font-size: 2rem;
 }
 
 
@@ -1052,7 +1052,8 @@
          Theme Overrides
 *******************************/
 
-.ui.form input {
+.ui.form .field.field input[type="text"] {
+  border-color: none;
   border-top: none;
   border-left: none;
   border-bottom: 1px solid rgba(12, 43, 90, 0.298039);

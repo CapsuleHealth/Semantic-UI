@@ -19,16 +19,16 @@ body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 12px;
 }
 body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  min-width: 278px;
+  min-width: 284px;
   background: #F7F7F7;
   font-family: 'Circular-Pro-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.33;
   color: #163D6A;
   font-smoothing: antialiased;

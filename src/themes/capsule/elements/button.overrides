@@ -1,0 +1,8 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.button {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
