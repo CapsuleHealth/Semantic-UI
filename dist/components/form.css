@@ -1053,7 +1053,6 @@
 *******************************/
 
 .ui.form .field.field input[type="text"] {
-  border-color: none;
   border-top: none;
   border-left: none;
   border-bottom: 1px solid rgba(12, 43, 90, 0.298039);

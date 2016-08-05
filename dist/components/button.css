@@ -20,9 +20,9 @@
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #E0E1E2 none;
-  color: rgba(0, 0, 0, 0.6);
-  font-family: 'Circular-Pro-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background: white none;
+  color: #163D6A;
+  font-family: 'MercuryTextG4-Roman-Pro', serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.91666667em 1.5em 0.91666667em;
   text-transform: none;
@@ -33,7 +33,7 @@
   text-align: center;
   text-decoration: none;
   border-radius: 0.2857rem;
-  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(12, 43, 90, 0.298039) inset;
+  box-shadow: 0px 0px 0px 1px #163D6A inset, 0px 0em 0px 0px rgba(12, 43, 90, 0.298039) inset;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -57,7 +57,7 @@
 .ui.button:hover {
   background-color: #CACBCD;
   background-image: none;
-  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(12, 43, 90, 0.298039) inset;
+  box-shadow: 0px 0px 0px 1px #163D6A inset, 0px 0em 0px 0px rgba(12, 43, 90, 0.298039) inset;
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.button:hover .icon {
@@ -87,7 +87,7 @@
   background-color: #BABBBC;
   background-image: '';
   color: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 0px 0px 1px transparent inset, none;
+  box-shadow: 0px 0px 0px 1px #163D6A inset, none;
 }
 
 /*--------------
@@ -97,7 +97,7 @@
 .ui.active.button {
   background-color: #C0C1C2;
   background-image: none;
-  box-shadow: 0px 0px 0px 1px transparent inset;
+  box-shadow: 0px 0px 0px 1px #163D6A inset;
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.active.button:hover {
@@ -719,7 +719,7 @@
 .ui.basic.buttons .button,
 .ui.basic.button {
   background: transparent none !important;
-  color: rgba(0, 0, 0, 0.6) !important;
+  color: #163D6A !important;
   font-weight: normal;
   border-radius: 0.2857rem;
   text-transform: none;
@@ -973,7 +973,7 @@
   color: rgba(0, 0, 0, 0.4);
   font-style: normal;
   font-weight: bold;
-  box-shadow: 0px 0px 0px 1px transparent inset;
+  box-shadow: 0px 0px 0px 1px #163D6A inset;
 }
 .ui.buttons .or[data-text]:before {
   content: attr(data-text);
@@ -1455,7 +1455,7 @@
 .ui.inverted.grey.buttons .button:active,
 .ui.inverted.grey.button:active {
   box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #163D6A;
 }
 .ui.inverted.grey.buttons .button:hover,
 .ui.inverted.grey.button:hover {
@@ -2715,7 +2715,7 @@
 .ui.inverted.teal.buttons .button:active,
 .ui.inverted.teal.button:active {
   box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #163D6A;
 }
 .ui.inverted.teal.buttons .button:hover,
 .ui.inverted.teal.button:hover {
@@ -2855,7 +2855,7 @@
 .ui.inverted.olive.buttons .button:active,
 .ui.inverted.olive.button:active {
   box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #163D6A;
 }
 .ui.inverted.olive.buttons .button:hover,
 .ui.inverted.olive.button:hover {
@@ -2995,7 +2995,7 @@
 .ui.inverted.yellow.buttons .button:active,
 .ui.inverted.yellow.button:active {
   box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #163D6A;
 }
 .ui.inverted.yellow.buttons .button:hover,
 .ui.inverted.yellow.button:hover {
@@ -3393,7 +3393,7 @@
 }
 .ui.buttons > .ui.button:not(.basic):not(.inverted),
 .ui.buttons:not(.basic):not(.inverted) > .button {
-  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(12, 43, 90, 0.298039) inset;
+  box-shadow: 0px 0px 0px 1px #163D6A inset, 0px 0em 0px 0px rgba(12, 43, 90, 0.298039) inset;
 }
 .ui.buttons .button:first-child {
   border-left: none;
