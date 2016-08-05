@@ -22,7 +22,7 @@ The capsule theme resides at
 the theme should now be available in `dist/semantic.min.css` and `dist/semantic.min.js`
 
 ## Building
-If you make changes to the theme rebuild running `gulp build-css`.
+If you make changes to the theme rebuild running `gulp build`.
 
 ## Deploying
 Utilize [github pages](http://capsulehealth.github.io/Semantic-UI/dist/semantic.css) for this repo
