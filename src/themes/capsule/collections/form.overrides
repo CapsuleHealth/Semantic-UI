@@ -1,0 +1,14 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.form .field.field input[type="text"] {
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid @borderColor;
+  border-right: none;
+}
+
+.ui.form .field > label {
+  color: @textColor;
+}

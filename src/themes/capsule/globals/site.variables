@@ -41,7 +41,7 @@
 
 /*---  Colors  ---*/
 @black            : #1B1C1D;
-@blue             : #3B83C0;
+@blue             : #163D6A;
 @green            : #E0EDEA;
 @grey             : #CCCCCC;
 @orange           : #DB4434;
@@ -53,7 +53,7 @@
 
 /*---  Light Colors  ---*/
 @lightBlack       : #333333;
-@lightBlue        : #54C8FF;
+@lightBlue        : #3B83C0;
 @lightGreen       : #2ECC40;
 @lightOrange      : #FF851B;
 @lightPink        : #FF8EDF;
@@ -101,7 +101,7 @@
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.33;
-@textColor           : rgba(0, 0, 0, 0.8);
+@textColor           : @blue;
 
 /*-------------------
       Paragraph
@@ -338,7 +338,7 @@
 
 @circularRadius                : 500rem;
 
-@borderColor                   : rgba(39, 41, 43, 0.15);
+@borderColor                   : rgba(12, 43, 90, 0.298039);
 @selectedBorderColor           : rgba(39, 41, 43, 0.3);
 
 @solidBorderColor              : #D4D4D5;

@@ -14,4 +14,15 @@ To see what's possible review the
 The capsule theme resides at
 [src/themes/capsule](https://github.com/CapsuleHealth/Semantic-UI/tree/master/src/themes/capsule).
 
+## Running
+
+* `npm install`
+* then choose the default settings
+
+the theme should now be available in `dist/semantic.min.css` and `dist/semantic.min.js`
+
 ## Building
+If you make changes to the theme rebuild running `gulp build`.
+
+## Deploying
+See [brand](https://github.com/CapsuleHealth/brand).
