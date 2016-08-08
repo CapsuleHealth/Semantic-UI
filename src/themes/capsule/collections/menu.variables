@@ -42,7 +42,7 @@
 @subMenuFontSize: @relativeTiny;
 @subMenuTextColor: rgba(0, 0, 0, 0.5);
 
-@subMenuIndent: 0em;
+@subMenuIndent: 1.1em;
 @subMenuHorizontalPadding: (@itemHorizontalPadding / @tinySize) + @subMenuIndent;
 @subMenuVerticalPadding: 0.5em;
 

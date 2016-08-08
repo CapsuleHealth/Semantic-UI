@@ -21149,7 +21149,7 @@ Floated Menu / Item
 
 .ui.vertical.menu .menu .item {
   background: none;
-  padding: 0.5em 0.11111111em;
+  padding: 0.5em 1.21111111em;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -21508,7 +21508,7 @@ Floated Menu / Item
 
 .ui.vertical.secondary.menu .item:not(.dropdown) > .menu > .item {
   margin: 0em;
-  padding: 0.58333333em 0.11111111em;
+  padding: 0.58333333em 1.21111111em;
 }
 
 /*---------------------
