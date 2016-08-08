@@ -1058,6 +1058,12 @@
   border-bottom: 1px solid rgba(12, 43, 90, 0.298039);
   border-right: none;
 }
+.ui.form input[type="text"] {
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid rgba(12, 43, 90, 0.298039);
+  border-right: none;
+}
 .ui.form .field > label {
   color: #163D6A;
 }
