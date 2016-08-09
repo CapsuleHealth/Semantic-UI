@@ -30,7 +30,7 @@ body {
   font-family: 'Circular-Pro-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 1.33;
-  color: #163D6A;
+  color: #0f3c6c;
   font-smoothing: antialiased;
 }
 
@@ -119,32 +119,32 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: rgba(255, 255, 160, 0.4);
-  color: #163D6A;
+  color: #0f3c6c;
 }
 ::-moz-selection {
   background-color: rgba(255, 255, 160, 0.4);
-  color: #163D6A;
+  color: #0f3c6c;
 }
 ::selection {
   background-color: rgba(255, 255, 160, 0.4);
-  color: #163D6A;
+  color: #0f3c6c;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: #163D6A;
+  color: #0f3c6c;
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: #163D6A;
+  color: #0f3c6c;
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: #163D6A;
+  color: #0f3c6c;
 }
 
 
