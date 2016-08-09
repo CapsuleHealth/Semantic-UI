@@ -1291,8 +1291,8 @@ Floated Menu / Item
 }
 .ui.menu .yellow.active.item,
 .ui.yellow.menu .active.item {
-  border-color: #F2C61F !important;
-  color: #F2C61F !important;
+  border-color: #FFD300 !important;
+  color: #FFD300 !important;
 }
 .ui.menu .olive.active.item,
 .ui.olive.menu .active.item {
@@ -1301,8 +1301,8 @@ Floated Menu / Item
 }
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
-  border-color: #E0EDEA !important;
-  color: #E0EDEA !important;
+  border-color: #74A6A2 !important;
+  color: #74A6A2 !important;
 }
 .ui.menu .teal.active.item,
 .ui.teal.menu .active.item {
@@ -1486,7 +1486,7 @@ Floated Menu / Item
 /* Yellow */
 .ui.inverted.menu .yellow.active.item,
 .ui.inverted.yellow.menu {
-  background-color: #F2C61F;
+  background-color: #FFD300;
 }
 .ui.inverted.yellow.menu .item:before {
   background-color: rgba(34, 36, 38, 0.1);
@@ -1510,7 +1510,7 @@ Floated Menu / Item
 /* Green */
 .ui.inverted.menu .green.active.item,
 .ui.inverted.green.menu {
-  background-color: #E0EDEA;
+  background-color: #74A6A2;
 }
 .ui.inverted.green.menu .item:before {
   background-color: rgba(34, 36, 38, 0.1);

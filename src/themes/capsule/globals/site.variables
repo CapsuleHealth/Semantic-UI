@@ -42,19 +42,19 @@
 /*---  Colors  ---*/
 @black            : #1B1C1D;
 @blue             : #163D6A;
-@green            : #E0EDEA;
+@green            : #74A6A2;
 @grey             : #CCCCCC;
 @orange           : #DB4434;
 @pink             : #D9499A;
 @purple           : #564F8A;
 @red              : #D95C5C;
 @teal             : #00B5AD;
-@yellow           : #F2C61F;
+@yellow           : #FFD300;
 
 /*---  Light Colors  ---*/
 @lightBlack       : #333333;
 @lightBlue        : #3B83C0;
-@lightGreen       : #2ECC40;
+@lightGreen       : #E0EDEA;
 @lightOrange      : #FF851B;
 @lightPink        : #FF8EDF;
 @lightPurple      : #CDC6FF;

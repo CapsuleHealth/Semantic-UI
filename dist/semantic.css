@@ -1690,14 +1690,14 @@ input::selection {
 .ui.toggle.buttons .active.button,
 .ui.buttons .button.toggle.active,
 .ui.button.toggle.active {
-  background-color: #E0EDEA !important;
+  background-color: #74A6A2 !important;
   box-shadow: none !important;
   text-shadow: none;
   color: #FFFFFF !important;
 }
 
 .ui.button.toggle.active:hover {
-  background-color: #eaf3f1 !important;
+  background-color: #7daca8 !important;
   text-shadow: none;
   color: #FFFFFF !important;
 }
@@ -2706,7 +2706,7 @@ input::selection {
 
 .ui.green.buttons .button,
 .ui.green.button {
-  background-color: #E0EDEA;
+  background-color: #74A6A2;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -2718,21 +2718,21 @@ input::selection {
 
 .ui.green.buttons .button:hover,
 .ui.green.button:hover {
-  background-color: #eaf3f1;
+  background-color: #7daca8;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.green.buttons .button:focus,
 .ui.green.button:focus {
-  background-color: #c4e0da;
+  background-color: #599893;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.green.buttons .button:active,
 .ui.green.button:active {
-  background-color: #c9e0db;
+  background-color: #609692;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2741,7 +2741,7 @@ input::selection {
 .ui.green.buttons .active.button:active,
 .ui.green.active.button,
 .ui.green.button .active.button:active {
-  background-color: #d0e4df;
+  background-color: #649c98;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2750,35 +2750,35 @@ input::selection {
 
 .ui.basic.green.buttons .button,
 .ui.basic.green.button {
-  box-shadow: 0px 0px 0px 1px #E0EDEA inset !important;
-  color: #E0EDEA !important;
+  box-shadow: 0px 0px 0px 1px #74A6A2 inset !important;
+  color: #74A6A2 !important;
 }
 
 .ui.basic.green.buttons .button:hover,
 .ui.basic.green.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #eaf3f1 inset !important;
-  color: #eaf3f1 !important;
+  box-shadow: 0px 0px 0px 1px #7daca8 inset !important;
+  color: #7daca8 !important;
 }
 
 .ui.basic.green.buttons .button:focus,
 .ui.basic.green.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #c4e0da inset !important;
-  color: #eaf3f1 !important;
+  box-shadow: 0px 0px 0px 1px #599893 inset !important;
+  color: #7daca8 !important;
 }
 
 .ui.basic.green.buttons .active.button,
 .ui.basic.green.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #d0e4df inset !important;
-  color: #c9e0db !important;
+  box-shadow: 0px 0px 0px 1px #649c98 inset !important;
+  color: #609692 !important;
 }
 
 .ui.basic.green.buttons .button:active,
 .ui.basic.green.button:active {
-  box-shadow: 0px 0px 0px 1px #c9e0db inset !important;
-  color: #c9e0db !important;
+  box-shadow: 0px 0px 0px 1px #609692 inset !important;
+  color: #609692 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.green.button:not(:first-child) {
@@ -2790,8 +2790,8 @@ input::selection {
 .ui.inverted.green.buttons .button,
 .ui.inverted.green.button {
   background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #2ECC40 inset !important;
-  color: #2ECC40;
+  box-shadow: 0px 0px 0px 2px #E0EDEA inset !important;
+  color: #E0EDEA;
 }
 
 .ui.inverted.green.buttons .button:hover,
@@ -2808,22 +2808,22 @@ input::selection {
 
 .ui.inverted.green.buttons .button:hover,
 .ui.inverted.green.button:hover {
-  background-color: #37d249;
+  background-color: #eaf3f1;
 }
 
 .ui.inverted.green.buttons .button:focus,
 .ui.inverted.green.button:focus {
-  background-color: #19b82b;
+  background-color: #c4e0da;
 }
 
 .ui.inverted.green.buttons .active.button,
 .ui.inverted.green.active.button {
-  background-color: #29b739;
+  background-color: #d0e4df;
 }
 
 .ui.inverted.green.buttons .button:active,
 .ui.inverted.green.button:active {
-  background-color: #27af37;
+  background-color: #c9e0db;
 }
 
 /* Inverted Basic */
@@ -2839,29 +2839,29 @@ input::selection {
 .ui.inverted.green.basic.buttons .button:hover,
 .ui.inverted.green.buttons .basic.button:hover,
 .ui.inverted.green.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #37d249 inset !important;
-  color: #2ECC40 !important;
+  box-shadow: 0px 0px 0px 2px #eaf3f1 inset !important;
+  color: #E0EDEA !important;
 }
 
 .ui.inverted.green.basic.buttons .button:focus,
 .ui.inverted.green.basic.buttons .button:focus,
 .ui.inverted.green.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #19b82b inset !important;
-  color: #2ECC40 !important;
+  box-shadow: 0px 0px 0px 2px #c4e0da inset !important;
+  color: #E0EDEA !important;
 }
 
 .ui.inverted.green.basic.buttons .active.button,
 .ui.inverted.green.buttons .basic.active.button,
 .ui.inverted.green.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #29b739 inset !important;
-  color: #2ECC40 !important;
+  box-shadow: 0px 0px 0px 2px #d0e4df inset !important;
+  color: #E0EDEA !important;
 }
 
 .ui.inverted.green.basic.buttons .button:active,
 .ui.inverted.green.buttons .basic.button:active,
 .ui.inverted.green.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #27af37 inset !important;
-  color: #2ECC40 !important;
+  box-shadow: 0px 0px 0px 2px #c9e0db inset !important;
+  color: #E0EDEA !important;
 }
 
 /*--- Orange ---*/
@@ -4002,7 +4002,7 @@ input::selection {
 
 .ui.yellow.buttons .button,
 .ui.yellow.button {
-  background-color: #F2C61F;
+  background-color: #FFD300;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4014,21 +4014,21 @@ input::selection {
 
 .ui.yellow.buttons .button:hover,
 .ui.yellow.button:hover {
-  background-color: #f3ca2d;
+  background-color: #ffd60f;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.yellow.buttons .button:focus,
 .ui.yellow.button:focus {
-  background-color: #e8b800;
+  background-color: #d6b100;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.yellow.buttons .button:active,
 .ui.yellow.button:active {
-  background-color: #e0b40d;
+  background-color: #dbb500;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4037,7 +4037,7 @@ input::selection {
 .ui.yellow.buttons .active.button:active,
 .ui.yellow.active.button,
 .ui.yellow.button .active.button:active {
-  background-color: #eabc0e;
+  background-color: #e6be00;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4046,35 +4046,35 @@ input::selection {
 
 .ui.basic.yellow.buttons .button,
 .ui.basic.yellow.button {
-  box-shadow: 0px 0px 0px 1px #F2C61F inset !important;
-  color: #F2C61F !important;
+  box-shadow: 0px 0px 0px 1px #FFD300 inset !important;
+  color: #FFD300 !important;
 }
 
 .ui.basic.yellow.buttons .button:hover,
 .ui.basic.yellow.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #f3ca2d inset !important;
-  color: #f3ca2d !important;
+  box-shadow: 0px 0px 0px 1px #ffd60f inset !important;
+  color: #ffd60f !important;
 }
 
 .ui.basic.yellow.buttons .button:focus,
 .ui.basic.yellow.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #e8b800 inset !important;
-  color: #f3ca2d !important;
+  box-shadow: 0px 0px 0px 1px #d6b100 inset !important;
+  color: #ffd60f !important;
 }
 
 .ui.basic.yellow.buttons .active.button,
 .ui.basic.yellow.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #eabc0e inset !important;
-  color: #e0b40d !important;
+  box-shadow: 0px 0px 0px 1px #e6be00 inset !important;
+  color: #dbb500 !important;
 }
 
 .ui.basic.yellow.buttons .button:active,
 .ui.basic.yellow.button:active {
-  box-shadow: 0px 0px 0px 1px #e0b40d inset !important;
-  color: #e0b40d !important;
+  box-shadow: 0px 0px 0px 1px #dbb500 inset !important;
+  color: #dbb500 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.yellow.button:not(:first-child) {
@@ -4255,7 +4255,7 @@ input::selection {
 
 .ui.secondary.buttons .button,
 .ui.secondary.button {
-  background-color: #E0EDEA;
+  background-color: #74A6A2;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4267,21 +4267,21 @@ input::selection {
 
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
-  background-color: #eaf3f1;
+  background-color: #7daca8;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:focus,
 .ui.secondary.button:focus {
-  background-color: #fafcfc;
+  background-color: #89bab6;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:active,
 .ui.secondary.button:active {
-  background-color: #c9e0db;
+  background-color: #609692;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4290,7 +4290,7 @@ input::selection {
 .ui.secondary.buttons .active.button:active,
 .ui.secondary.active.button,
 .ui.secondary.button .active.button:active {
-  background-color: #d0e4df;
+  background-color: #649c98;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4299,35 +4299,35 @@ input::selection {
 
 .ui.basic.secondary.buttons .button,
 .ui.basic.secondary.button {
-  box-shadow: 0px 0px 0px 1px #E0EDEA inset !important;
-  color: #E0EDEA !important;
+  box-shadow: 0px 0px 0px 1px #74A6A2 inset !important;
+  color: #74A6A2 !important;
 }
 
 .ui.basic.secondary.buttons .button:hover,
 .ui.basic.secondary.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #eaf3f1 inset !important;
-  color: #eaf3f1 !important;
+  box-shadow: 0px 0px 0px 1px #7daca8 inset !important;
+  color: #7daca8 !important;
 }
 
 .ui.basic.secondary.buttons .button:focus,
 .ui.basic.secondary.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #fafcfc inset !important;
-  color: #eaf3f1 !important;
+  box-shadow: 0px 0px 0px 1px #89bab6 inset !important;
+  color: #7daca8 !important;
 }
 
 .ui.basic.secondary.buttons .active.button,
 .ui.basic.secondary.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #d0e4df inset !important;
-  color: #c9e0db !important;
+  box-shadow: 0px 0px 0px 1px #649c98 inset !important;
+  color: #609692 !important;
 }
 
 .ui.basic.secondary.buttons .button:active,
 .ui.basic.secondary.button:active {
-  box-shadow: 0px 0px 0px 1px #c9e0db inset !important;
-  color: #c9e0db !important;
+  box-shadow: 0px 0px 0px 1px #609692 inset !important;
+  color: #609692 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
@@ -4342,7 +4342,7 @@ input::selection {
 
 .ui.positive.buttons .button,
 .ui.positive.button {
-  background-color: #E0EDEA;
+  background-color: #74A6A2;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4354,21 +4354,21 @@ input::selection {
 
 .ui.positive.buttons .button:hover,
 .ui.positive.button:hover {
-  background-color: #eaf3f1;
+  background-color: #7daca8;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.positive.buttons .button:focus,
 .ui.positive.button:focus {
-  background-color: #c4e0da;
+  background-color: #599893;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.positive.buttons .button:active,
 .ui.positive.button:active {
-  background-color: #c9e0db;
+  background-color: #609692;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4377,7 +4377,7 @@ input::selection {
 .ui.positive.buttons .active.button:active,
 .ui.positive.active.button,
 .ui.positive.button .active.button:active {
-  background-color: #d0e4df;
+  background-color: #649c98;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4386,35 +4386,35 @@ input::selection {
 
 .ui.basic.positive.buttons .button,
 .ui.basic.positive.button {
-  box-shadow: 0px 0px 0px 1px #E0EDEA inset !important;
-  color: #E0EDEA !important;
+  box-shadow: 0px 0px 0px 1px #74A6A2 inset !important;
+  color: #74A6A2 !important;
 }
 
 .ui.basic.positive.buttons .button:hover,
 .ui.basic.positive.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #eaf3f1 inset !important;
-  color: #eaf3f1 !important;
+  box-shadow: 0px 0px 0px 1px #7daca8 inset !important;
+  color: #7daca8 !important;
 }
 
 .ui.basic.positive.buttons .button:focus,
 .ui.basic.positive.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #c4e0da inset !important;
-  color: #eaf3f1 !important;
+  box-shadow: 0px 0px 0px 1px #599893 inset !important;
+  color: #7daca8 !important;
 }
 
 .ui.basic.positive.buttons .active.button,
 .ui.basic.positive.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #d0e4df inset !important;
-  color: #c9e0db !important;
+  box-shadow: 0px 0px 0px 1px #649c98 inset !important;
+  color: #609692 !important;
 }
 
 .ui.basic.positive.buttons .button:active,
 .ui.basic.positive.button:active {
-  box-shadow: 0px 0px 0px 1px #c9e0db inset !important;
-  color: #c9e0db !important;
+  box-shadow: 0px 0px 0px 1px #609692 inset !important;
+  color: #609692 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
@@ -21967,8 +21967,8 @@ Floated Menu / Item
 
 .ui.menu .yellow.active.item,
 .ui.yellow.menu .active.item {
-  border-color: #F2C61F !important;
-  color: #F2C61F !important;
+  border-color: #FFD300 !important;
+  color: #FFD300 !important;
 }
 
 .ui.menu .olive.active.item,
@@ -21979,8 +21979,8 @@ Floated Menu / Item
 
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
-  border-color: #E0EDEA !important;
-  color: #E0EDEA !important;
+  border-color: #74A6A2 !important;
+  color: #74A6A2 !important;
 }
 
 .ui.menu .teal.active.item,
@@ -22189,7 +22189,7 @@ Floated Menu / Item
 
 .ui.inverted.menu .yellow.active.item,
 .ui.inverted.yellow.menu {
-  background-color: #F2C61F;
+  background-color: #FFD300;
 }
 
 .ui.inverted.yellow.menu .item:before {
@@ -22219,7 +22219,7 @@ Floated Menu / Item
 
 .ui.inverted.menu .green.active.item,
 .ui.inverted.green.menu {
-  background-color: #E0EDEA;
+  background-color: #74A6A2;
 }
 
 .ui.inverted.green.menu .item:before {
