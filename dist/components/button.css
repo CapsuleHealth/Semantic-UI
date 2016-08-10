@@ -25,9 +25,9 @@
   font-family: 'MercuryTextG4-Roman-Pro', serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.91666667em 1.5em 0.91666667em;
-  text-transform: none;
+  text-transform: uppercase;
   text-shadow: none;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1em;
   font-style: normal;
   text-align: center;
@@ -3449,7 +3449,6 @@
 
 .ui.button {
   letter-spacing: 3px;
-  text-transform: uppercase;
 }
 
 

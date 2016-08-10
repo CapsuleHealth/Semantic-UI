@@ -19,10 +19,10 @@
 @horizontalPadding: 1.5em;
 
 /* Text */
-@textTransform: none;
+@textTransform: uppercase;
 @tapColor: transparent;
 @fontFamily: 'MercuryTextG4-Roman-Pro', serif;
-@fontWeight: bold;
+@fontWeight: normal;
 @textColor: @blue;
 @textShadow: none;
 @invertedTextShadow: @textShadow;
