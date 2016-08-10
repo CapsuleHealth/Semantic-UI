@@ -6,9 +6,6 @@
        Element
 --------------------*/
 
-/* TODO make this container mobile only, i.e., even on desktop it displays at
-iphone width */
-
 
 /* Minimum Gutter is used to determine  the maximum container width for a given device */
 
@@ -17,7 +14,7 @@ iphone width */
 /* Devices */
 @mobileMinimumGutter: 0em;
 @mobileWidth: auto;
-@mobileGutter: 1em;
+@mobileGutter: 0em;
 
 @tabletMinimumGutter: (@emSize  * 1);
 @tabletWidth: @tabletBreakpoint - (@tabletMinimumGutter * 2) - @scrollbarWidth;
