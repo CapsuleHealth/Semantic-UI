@@ -1458,7 +1458,7 @@ input::selection {
   color: #0f3c6c !important;
   font-weight: normal;
   border-radius: 0.2857rem;
-  text-transform: none;
+  text-transform: uppercase;
   text-shadow: none !important;
   box-shadow: 0px 0px 0px 1px rgba(12, 43, 90, 0.298039) inset;
 }
@@ -4613,6 +4613,10 @@ input::selection {
 
 .ui.button {
   letter-spacing: 3px;
+}
+
+.ui.basic.button {
+  font-family: 'Circular-Pro-Book', san-serif;
 }
 
 /*******************************

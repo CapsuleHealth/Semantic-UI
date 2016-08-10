@@ -5,3 +5,7 @@
 .ui.button {
   letter-spacing: 3px;
 }
+
+.ui.basic.button {
+  font-family: 'Circular-Pro-Book', san-serif;
+}
