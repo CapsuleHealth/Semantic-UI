@@ -25,7 +25,7 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color: rgba(0, 0, 0, 0.87);
+  color: #0f3c6c;
 }
 .ui.input input {
   margin: 0em;
@@ -37,12 +37,12 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.2142em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  padding: 0.67861429em 1em;
+  font-family: 'Circular-Pro-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding: 0.80956667em 1.16666667em;
   background: #FFFFFF;
-  border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
-  border-radius: 0.28571429rem;
+  border: 1px solid rgba(12, 43, 90, 0.298039);
+  color: #0f3c6c;
+  border-radius: 0.2857rem;
   -webkit-transition: box-shadow 0.1s ease, border-color 0.1s ease;
   transition: box-shadow 0.1s ease, border-color 0.1s ease;
   box-shadow: none;
@@ -55,13 +55,13 @@
 
 /* browsers require these rules separate */
 .ui.input input::-webkit-input-placeholder {
-  color: rgba(191, 191, 191, 0.87);
+  color: #fbfdfe;
 }
 .ui.input input::-moz-placeholder {
-  color: rgba(191, 191, 191, 0.87);
+  color: #fbfdfe;
 }
 .ui.input input:-ms-input-placeholder {
-  color: rgba(191, 191, 191, 0.87);
+  color: #fbfdfe;
 }
 
 
@@ -76,7 +76,7 @@
 
 .ui.disabled.input,
 .ui.input input[disabled] {
-  opacity: 0.45;
+  opacity: 0.3;
 }
 .ui.disabled.input input,
 .ui.input input[disabled] {
@@ -91,7 +91,7 @@
 .ui.input.down input {
   border-color: rgba(0, 0, 0, 0.3);
   background: #FAFAFA;
-  color: rgba(0, 0, 0, 0.87);
+  color: #0f3c6c;
   box-shadow: none;
 }
 
@@ -104,9 +104,9 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.64285714em 0em 0em -0.64285714em;
-  width: 1.28571429em;
-  height: 1.28571429em;
+  margin: -0.75em 0em 0em -0.75em;
+  width: 1.5em;
+  height: 1.5em;
   border-radius: 500rem;
   border: 0.2em solid rgba(0, 0, 0, 0.1);
 }
@@ -115,15 +115,15 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.64285714em 0em 0em -0.64285714em;
-  width: 1.28571429em;
-  height: 1.28571429em;
+  margin: -0.75em 0em 0em -0.75em;
+  width: 1.5em;
+  height: 1.5em;
   -webkit-animation: button-spin 0.6s linear;
           animation: button-spin 0.6s linear;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #767676 transparent transparent;
+  border-color: #AAAAAA transparent transparent;
   border-style: solid;
   border-width: 0.2em;
   box-shadow: 0px 0px 0px 1px transparent;
@@ -142,15 +142,15 @@
 }
 .ui.input.focus input::-webkit-input-placeholder,
 .ui.input input:focus::-webkit-input-placeholder {
-  color: rgba(115, 115, 115, 0.87);
+  color: #75aeec;
 }
 .ui.input.focus input::-moz-placeholder,
 .ui.input input:focus::-moz-placeholder {
-  color: rgba(115, 115, 115, 0.87);
+  color: #75aeec;
 }
 .ui.input.focus input:-ms-input-placeholder,
 .ui.input input:focus:-ms-input-placeholder {
-  color: rgba(115, 115, 115, 0.87);
+  color: #75aeec;
 }
 
 /*--------------------
@@ -158,32 +158,32 @@
 ---------------------*/
 
 .ui.input.error input {
-  background-color: #FFF6F6;
-  border-color: #E0B4B4;
-  color: #9F3A38;
+  background-color: #FFF0F0;
+  border-color: #DBB1B1;
+  color: #A94442;
   box-shadow: none;
 }
 
 /* Error Placeholder */
 .ui.input.error input::-webkit-input-placeholder {
-  color: #e7bdbc;
+  color: #ebcdcc;
 }
 .ui.input.error input::-moz-placeholder {
-  color: #e7bdbc;
+  color: #ebcdcc;
 }
 .ui.input.error input:-ms-input-placeholder {
-  color: #e7bdbc !important;
+  color: #ebcdcc !important;
 }
 
 /* Focused Error Placeholder */
 .ui.input.error input:focus::-webkit-input-placeholder {
-  color: #da9796;
+  color: #dda8a7;
 }
 .ui.input.error input:focus::-moz-placeholder {
-  color: #da9796;
+  color: #dda8a7;
 }
 .ui.input.error input:focus:-ms-input-placeholder {
-  color: #da9796 !important;
+  color: #dda8a7 !important;
 }
 
 
@@ -246,9 +246,9 @@
   right: 0px;
   margin: 0em;
   height: 100%;
-  width: 2.67142857em;
+  width: 2.93333333em;
   opacity: 0.5;
-  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
+  border-radius: 0em 0.2857rem 0.2857rem 0em;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
@@ -256,7 +256,7 @@
   pointer-events: none;
 }
 .ui.icon.input input {
-  padding-right: 2.67142857em !important;
+  padding-right: 2.93333333em !important;
 }
 .ui.icon.input > i.icon:before,
 .ui.icon.input > i.icon:after {
@@ -279,15 +279,15 @@
 .ui[class*="left icon"].input > i.icon {
   right: auto;
   left: 1px;
-  border-radius: 0.28571429rem 0em 0em 0.28571429rem;
+  border-radius: 0.2857rem 0em 0em 0.2857rem;
 }
 .ui[class*="left icon"].input > i.circular.icon {
   right: auto;
   left: 0.5em;
 }
 .ui[class*="left icon"].input > input {
-  padding-left: 2.67142857em !important;
-  padding-right: 1em !important;
+  padding-left: 2.93333333em !important;
+  padding-right: 1.16666667em !important;
 }
 
 /* Focus */
@@ -309,8 +309,8 @@
   font-size: 1em;
 }
 .ui.labeled.input > .label:not(.corner) {
-  padding-top: 0.78571429em;
-  padding-bottom: 0.78571429em;
+  padding-top: 0.91666667em;
+  padding-bottom: 0.91666667em;
 }
 
 /* Regular Label on Left */
@@ -345,8 +345,8 @@
 .ui.labeled.input .corner.label {
   top: 1px;
   right: 1px;
-  font-size: 0.64285714em;
-  border-radius: 0em 0.28571429rem 0em 0em;
+  font-size: 0.75em;
+  border-radius: 0em 0.2857rem 0em 0em;
 }
 
 /* Spacing with corner label */
@@ -399,8 +399,8 @@
 }
 .ui.action.input > .button,
 .ui.action.input > .buttons > .button {
-  padding-top: 0.78571429em;
-  padding-bottom: 0.78571429em;
+  padding-top: 0.91666667em;
+  padding-bottom: 0.91666667em;
   margin: 0;
 }
 
@@ -418,7 +418,7 @@
 .ui.action.input:not([class*="left action"]) > .dropdown:last-child,
 .ui.action.input:not([class*="left action"]) > .button:last-child,
 .ui.action.input:not([class*="left action"]) > .buttons:last-child > .button {
-  border-radius: 0px 0.28571429rem 0.28571429rem 0px;
+  border-radius: 0px 0.2857rem 0.2857rem 0px;
 }
 
 /* Input Focus */
@@ -440,7 +440,7 @@
 .ui[class*="left action"].input > .dropdown:first-child,
 .ui[class*="left action"].input > .button:first-child,
 .ui[class*="left action"].input > .buttons:first-child > .button {
-  border-radius: 0.28571429rem 0px 0px 0.28571429rem;
+  border-radius: 0.2857rem 0px 0px 0.2857rem;
 }
 
 /* Input Focus */
@@ -476,32 +476,26 @@
 ---------------------*/
 
 .ui.mini.input {
-  font-size: 0.78571429em;
+  font-size: 0.83333333em;
 }
 .ui.small.input {
-  font-size: 0.92857143em;
+  font-size: 1.08333333em;
 }
 .ui.input {
   font-size: 1em;
 }
 .ui.large.input {
-  font-size: 1.14285714em;
+  font-size: 1.33333333em;
 }
 .ui.big.input {
-  font-size: 1.28571429em;
+  font-size: 1.5em;
 }
 .ui.huge.input {
-  font-size: 1.42857143em;
+  font-size: 1.66666667em;
 }
 .ui.massive.input {
-  font-size: 1.71428571em;
+  font-size: 2em;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
 
 
 /*******************************

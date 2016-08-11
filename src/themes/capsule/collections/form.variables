@@ -32,7 +32,7 @@
 @inputWidth: 100%;
 @inputFontSize: 1em;
 @inputPadding: (@inputVerticalPadding + ((1em - @inputLineHeight) / 2)) @inputHorizontalPadding;
-@inputBorder: none;
+@inputBorder: dontUseMeUseTheOverride;
 @inputBorderRadius: none;
 @inputColor: @textColor;
 @inputTransition:

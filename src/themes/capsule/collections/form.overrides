@@ -2,14 +2,7 @@
          Theme Overrides
 *******************************/
 
-.ui.form .field.field input[type="text"] {
-  border-top: none;
-  border-left: none;
-  border-bottom: 1px solid @borderColor;
-  border-right: none;
-}
-
-.ui.form input[type="text"] {
+.ui.form input {
   border-top: none;
   border-left: none;
   border-bottom: 1px solid @borderColor;

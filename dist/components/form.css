@@ -106,7 +106,7 @@
   padding: 0.80956667em 1.16666667em;
   font-size: 1em;
   background: #FFFFFF;
-  border: none;
+  border: dontUseMeUseTheOverride;
   color: #0f3c6c;
   border-radius: none;
   box-shadow: 0em 0em 0em 0em transparent inset;
@@ -121,7 +121,7 @@
   tap-highlight-color: rgba(255, 255, 255, 0);
   padding: 0.91666667em 1.16666667em;
   background: #FFFFFF;
-  border: none;
+  border: dontUseMeUseTheOverride;
   outline: none;
   color: #0f3c6c;
   border-radius: none;
@@ -159,7 +159,7 @@
   height: auto;
   width: 100%;
   background: #FFFFFF;
-  border: none;
+  border: dontUseMeUseTheOverride;
   border-radius: none;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 1.16666667em;
@@ -1052,13 +1052,7 @@
          Theme Overrides
 *******************************/
 
-.ui.form .field.field input[type="text"] {
-  border-top: none;
-  border-left: none;
-  border-bottom: 1px solid rgba(12, 43, 90, 0.298039);
-  border-right: none;
-}
-.ui.form input[type="text"] {
+.ui.form input {
   border-top: none;
   border-left: none;
   border-bottom: 1px solid rgba(12, 43, 90, 0.298039);
