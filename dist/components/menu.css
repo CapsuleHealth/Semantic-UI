@@ -23,12 +23,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 1rem 0em 2px;
+  margin: 1rem 0em;
   font-family: 'Circular-Pro-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   font-weight: normal;
   border: none;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  box-shadow: none;
   border-radius: 0;
   min-height: 2.83333333em;
 }
@@ -508,7 +508,7 @@ Floated Menu / Item
       -ms-flex-direction: column;
           flex-direction: column;
   background: #FFFFFF;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  box-shadow: none;
 }
 
 /*--- Item ---*/

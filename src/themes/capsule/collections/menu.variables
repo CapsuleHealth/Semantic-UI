@@ -9,14 +9,14 @@
 /* Menu */
 @verticalMargin: @medium;
 @horizontalMargin: 0em;
-@margin: @verticalMargin @horizontalMargin 2px;
+@margin: @verticalMargin @horizontalMargin;
 @background: #FFFFFF;
 @fontFamily: @pageFont;
 @itemBackground: none;
 @fontWeight: normal;
 @borderWidth: 1px;
 @border: none;
-@boxShadow: @subtleShadow;
+@boxShadow: none;
 @borderRadius: 0;
 @minHeight: (@itemVerticalPadding * 2) + 1em;
 
