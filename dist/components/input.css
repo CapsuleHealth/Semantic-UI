@@ -224,13 +224,13 @@
   color: inherit;
 }
 .ui.transparent.inverted.input input::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #0F3C6C;
 }
 .ui.transparent.inverted.input input::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #0F3C6C;
 }
 .ui.transparent.inverted.input input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #0F3C6C;
 }
 
 /*--------------------

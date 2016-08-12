@@ -653,7 +653,7 @@
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
   background: #1B1C1D;
-  color: rgba(255, 255, 255, 0.9);
+  color: #0F3C6C;
 }
 
 /* Nested */
@@ -661,7 +661,7 @@
   color: #0F3C6C;
 }
 .ui.inverted.segment .inverted.segment {
-  color: rgba(255, 255, 255, 0.9);
+  color: #0F3C6C;
 }
 
 /* Attached */
@@ -682,7 +682,7 @@
 .ui.secondary.inverted.segment {
   background: #4c4f52 -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
   background: #4c4f52 linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
-  color: rgba(255, 255, 255, 0.8);
+  color: #09233f;
 }
 
 /* Tertiary */
@@ -693,7 +693,7 @@
 .ui.tertiary.inverted.segment {
   background: #717579 -webkit-linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
   background: #717579 linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
-  color: rgba(255, 255, 255, 0.8);
+  color: #09233f;
 }
 
 /*-------------------

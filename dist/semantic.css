@@ -11766,15 +11766,15 @@ img.ui.bordered.image {
 }
 
 .ui.transparent.inverted.input input::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #0F3C6C;
 }
 
 .ui.transparent.inverted.input input::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #0F3C6C;
 }
 
 .ui.transparent.inverted.input input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #0F3C6C;
 }
 
 /*--------------------
@@ -16155,7 +16155,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
   background: #1B1C1D;
-  color: rgba(255, 255, 255, 0.9);
+  color: #0F3C6C;
 }
 
 /* Nested */
@@ -16165,7 +16165,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.inverted.segment .inverted.segment {
-  color: rgba(255, 255, 255, 0.9);
+  color: #0F3C6C;
 }
 
 /* Attached */
@@ -16188,7 +16188,7 @@ ol.ui.horizontal.list li:before,
 .ui.secondary.inverted.segment {
   background: #4c4f52 -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
   background: #4c4f52 linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
-  color: rgba(255, 255, 255, 0.8);
+  color: #09233f;
 }
 
 /* Tertiary */
@@ -16201,7 +16201,7 @@ ol.ui.horizontal.list li:before,
 .ui.tertiary.inverted.segment {
   background: #717579 -webkit-linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
   background: #717579 linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
-  color: rgba(255, 255, 255, 0.8);
+  color: #09233f;
 }
 
 /*-------------------
@@ -17869,7 +17869,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form .inline.fields .field > p,
 .ui.inverted.form .inline.field > label,
 .ui.inverted.form .inline.field > p {
-  color: rgba(255, 255, 255, 0.9);
+  color: #0F3C6C;
 }
 
 /* Inverted Field */
@@ -20869,7 +20869,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.inverted.menu .search.dropdown.item > .search,
 .ui.inverted.menu .search.dropdown.item > .text {
-  color: rgba(255, 255, 255, 0.9);
+  color: #0F3C6C;
 }
 
 /* Vertical */
@@ -21477,19 +21477,19 @@ Floated Menu / Item
 
 .ui.secondary.inverted.menu .link.item,
 .ui.secondary.inverted.menu a.item {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: #030a12 !important;
 }
 
 .ui.secondary.inverted.menu .dropdown.item:hover,
 .ui.secondary.inverted.menu .link.item:hover,
 .ui.secondary.inverted.menu a.item:hover {
   background: rgba(255, 255, 255, 0.08);
-  color: #ffffff !important;
+  color: #997f00 !important;
 }
 
 .ui.secondary.inverted.menu .active.item {
   background: rgba(255, 255, 255, 0.15);
-  color: #ffffff !important;
+  color: #997f00 !important;
 }
 
 /* Fix item margins */
@@ -21658,7 +21658,7 @@ Floated Menu / Item
 }
 
 .ui.secondary.inverted.pointing.menu .item {
-  color: rgba(255, 255, 255, 0.9);
+  color: #0F3C6C;
 }
 
 .ui.secondary.inverted.pointing.menu .header.item {
@@ -21676,7 +21676,7 @@ Floated Menu / Item
 
 .ui.secondary.inverted.pointing.menu .active.item {
   border-color: #FFFFFF;
-  color: #ffffff;
+  color: #997f00;
 }
 
 /*--------------
@@ -22047,7 +22047,7 @@ Floated Menu / Item
 .ui.inverted.menu .item,
 .ui.inverted.menu .item > a:not(.ui) {
   background: transparent;
-  color: rgba(255, 255, 255, 0.9);
+  color: #0F3C6C;
 }
 
 .ui.inverted.menu .item.menu {
@@ -22068,7 +22068,7 @@ Floated Menu / Item
 
 .ui.vertical.inverted.menu .menu .item,
 .ui.vertical.inverted.menu .menu .item a:not(.ui) {
-  color: rgba(255, 255, 255, 0.5);
+  color: #0F3C6C;
 }
 
 /* Header */
@@ -22093,13 +22093,13 @@ Floated Menu / Item
 .ui.inverted.menu .link.item:hover,
 .ui.inverted.menu a.item:hover {
   background: rgba(255, 255, 255, 0.08);
-  color: #ffffff;
+  color: #997f00;
 }
 
 .ui.vertical.inverted.menu .item .menu a.item:hover,
 .ui.vertical.inverted.menu .item .menu .link.item:hover {
   background: transparent;
-  color: #ffffff;
+  color: #997f00;
 }
 
 /*--- Pressed ---*/
@@ -22107,14 +22107,14 @@ Floated Menu / Item
 .ui.inverted.menu a.item:active,
 .ui.inverted.menu .link.item:active {
   background: rgba(255, 255, 255, 0.08);
-  color: #ffffff;
+  color: #997f00;
 }
 
 /*--- Active ---*/
 
 .ui.inverted.menu .active.item {
   background: rgba(255, 255, 255, 0.15);
-  color: #ffffff !important;
+  color: #997f00 !important;
 }
 
 .ui.inverted.vertical.menu .item .menu .active.item {
