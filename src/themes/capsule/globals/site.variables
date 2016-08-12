@@ -190,14 +190,22 @@
       Site Colors
 --------------------*/
 
+/*--- Capsule Colors ---*/
+@capsuleRed    : #EF4931;
+@capsuleBlue   : #0F3C6C;
+@capsuleYellow : #FFD300;
+@capsuleGreen  : #99BFBC;
+@capsuleTint50 : #CCDFDD;
+@capsuleTint30 : #E0ECEB;
+
 /*---  Colors  ---*/
-@red              : #EF4931;
+@red              : @capsuleRed;
 @orange           : #F2711C;
-@yellow           : #FFD300;
+@yellow           : @capsuleYellow;
 @olive            : #B5CC18;
-@green            : #99BFBC;
+@green            : @capsuleGreen;
 @teal             : #00B5AD;
-@blue             : #0F3C6C;
+@blue             : @capsuleBlue;
 @violet           : #6435C9;
 @purple           : #A333C8;
 @pink             : #E03997;
@@ -210,7 +218,7 @@
 @lightOrange      : #FF851B;
 @lightYellow      : #FFE21F;
 @lightOlive       : #D9E778;
-@lightGreen       : #CCDFDD;
+@lightGreen       : @capsuleTint50;
 @lightTeal        : #6DFFFF;
 @lightBlue        : #54C8FF;
 @lightViolet      : #A291FB;
@@ -222,19 +230,19 @@
 
 /*---   Neutrals  ---*/
 @fullBlack        : #000000;
-@offWhite         : #E0ECEB;
+@offWhite         : @capsuleTint30;
 @darkWhite        : #F3F4F5;
 @midWhite         : #DCDDDE;
 @white            : #FFFFFF;
 
 /*--- Colored Backgrounds ---*/
-@redBackground    : #FFE8E6;
+@redBackground    : lighten(@capsuleRed, 50%);
 @orangeBackground : #FFEDDE;
-@yellowBackground : #FFF8DB;
+@yellowBackground : lighten(@capsuleYellow, 50%);
 @oliveBackground  : #FBFDEF;
-@greenBackground  : #E0ECEB;
+@greenBackground  : @capsuleTint30;
 @tealBackground   : #E1F7F7;
-@blueBackground   : #DFF0FF;
+@blueBackground   : lighten(@capsuleBlue, 50%);
 @violetBackground : #EAE7FF;
 @purpleBackground : #F6E7FF;
 @pinkBackground   : #FFE3FB;
