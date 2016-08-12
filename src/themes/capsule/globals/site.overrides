@@ -1,0 +1,15 @@
+/*******************************
+        Global Overrides
+*******************************/
+
+.ui.lightGreen {
+  background-color: @capsuleTint50;
+}
+
+.ui.capsuleTint50 {
+  background-color: @capsuleTint50;
+}
+
+.ui.capsuleTint30 {
+  background-color: @capsuleTint30;
+}

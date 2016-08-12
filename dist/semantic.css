@@ -656,6 +656,22 @@ input::selection {
 }
 
 /*******************************
+        Global Overrides
+*******************************/
+
+.ui.lightGreen {
+  background-color: #CCDFDD;
+}
+
+.ui.capsuleTint50 {
+  background-color: #CCDFDD;
+}
+
+.ui.capsuleTint30 {
+  background-color: #E0ECEB;
+}
+
+/*******************************
          Site Overrides
 *******************************/
 /*!
