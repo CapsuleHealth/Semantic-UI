@@ -9,7 +9,7 @@
 /* Menu */
 @verticalMargin: @medium;
 @horizontalMargin: 0em;
-@margin: @verticalMargin @horizontalMargin;
+@margin: @verticalMargin @horizontalMargin 2px;
 @background: #FFFFFF;
 @fontFamily: @pageFont;
 @itemBackground: none;

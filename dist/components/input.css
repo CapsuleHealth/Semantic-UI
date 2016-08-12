@@ -25,7 +25,7 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color: #0f3c6c;
+  color: #0F3C6C;
 }
 .ui.input input {
   margin: 0em;
@@ -40,9 +40,9 @@
   font-family: 'Circular-Pro-Medium', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.80956667em 1.16666667em;
   background: #FFFFFF;
-  border: 1px solid rgba(12, 43, 90, 0.298039);
-  color: #0f3c6c;
-  border-radius: 0.2857rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  color: #0F3C6C;
+  border-radius: 0.33333333rem;
   -webkit-transition: box-shadow 0.1s ease, border-color 0.1s ease;
   transition: box-shadow 0.1s ease, border-color 0.1s ease;
   box-shadow: none;
@@ -76,7 +76,7 @@
 
 .ui.disabled.input,
 .ui.input input[disabled] {
-  opacity: 0.3;
+  opacity: 0.45;
 }
 .ui.disabled.input input,
 .ui.input input[disabled] {
@@ -91,7 +91,7 @@
 .ui.input.down input {
   border-color: rgba(0, 0, 0, 0.3);
   background: #FAFAFA;
-  color: #0f3c6c;
+  color: #0F3C6C;
   box-shadow: none;
 }
 
@@ -104,9 +104,9 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.75em 0em 0em -0.75em;
-  width: 1.5em;
-  height: 1.5em;
+  margin: -0.625em 0em 0em -0.625em;
+  width: 1.25em;
+  height: 1.25em;
   border-radius: 500rem;
   border: 0.2em solid rgba(0, 0, 0, 0.1);
 }
@@ -115,15 +115,15 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.75em 0em 0em -0.75em;
-  width: 1.5em;
-  height: 1.5em;
+  margin: -0.625em 0em 0em -0.625em;
+  width: 1.25em;
+  height: 1.25em;
   -webkit-animation: button-spin 0.6s linear;
           animation: button-spin 0.6s linear;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #AAAAAA transparent transparent;
+  border-color: #0F3C6C transparent transparent;
   border-style: solid;
   border-width: 0.2em;
   box-shadow: 0px 0px 0px 1px transparent;
@@ -158,32 +158,32 @@
 ---------------------*/
 
 .ui.input.error input {
-  background-color: #FFF0F0;
-  border-color: #DBB1B1;
-  color: #A94442;
+  background-color: #FFF6F6;
+  border-color: #E0B4B4;
+  color: #9F3A38;
   box-shadow: none;
 }
 
 /* Error Placeholder */
 .ui.input.error input::-webkit-input-placeholder {
-  color: #ebcdcc;
+  color: #e7bdbc;
 }
 .ui.input.error input::-moz-placeholder {
-  color: #ebcdcc;
+  color: #e7bdbc;
 }
 .ui.input.error input:-ms-input-placeholder {
-  color: #ebcdcc !important;
+  color: #e7bdbc !important;
 }
 
 /* Focused Error Placeholder */
 .ui.input.error input:focus::-webkit-input-placeholder {
-  color: #dda8a7;
+  color: #da9796;
 }
 .ui.input.error input:focus::-moz-placeholder {
-  color: #dda8a7;
+  color: #da9796;
 }
 .ui.input.error input:focus:-ms-input-placeholder {
-  color: #dda8a7 !important;
+  color: #da9796 !important;
 }
 
 
@@ -248,7 +248,7 @@
   height: 100%;
   width: 2.93333333em;
   opacity: 0.5;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 0.33333333rem 0.33333333rem 0em;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
@@ -279,7 +279,7 @@
 .ui[class*="left icon"].input > i.icon {
   right: auto;
   left: 1px;
-  border-radius: 0.2857rem 0em 0em 0.2857rem;
+  border-radius: 0.33333333rem 0em 0em 0.33333333rem;
 }
 .ui[class*="left icon"].input > i.circular.icon {
   right: auto;
@@ -346,7 +346,7 @@
   top: 1px;
   right: 1px;
   font-size: 0.75em;
-  border-radius: 0em 0.2857rem 0em 0em;
+  border-radius: 0em 0.33333333rem 0em 0em;
 }
 
 /* Spacing with corner label */
@@ -418,7 +418,7 @@
 .ui.action.input:not([class*="left action"]) > .dropdown:last-child,
 .ui.action.input:not([class*="left action"]) > .button:last-child,
 .ui.action.input:not([class*="left action"]) > .buttons:last-child > .button {
-  border-radius: 0px 0.2857rem 0.2857rem 0px;
+  border-radius: 0px 0.33333333rem 0.33333333rem 0px;
 }
 
 /* Input Focus */
@@ -440,7 +440,7 @@
 .ui[class*="left action"].input > .dropdown:first-child,
 .ui[class*="left action"].input > .button:first-child,
 .ui[class*="left action"].input > .buttons:first-child > .button {
-  border-radius: 0.2857rem 0px 0px 0.2857rem;
+  border-radius: 0.33333333rem 0px 0px 0.33333333rem;
 }
 
 /* Input Focus */
@@ -476,25 +476,25 @@
 ---------------------*/
 
 .ui.mini.input {
-  font-size: 0.83333333em;
+  font-size: 0.75em;
 }
 .ui.small.input {
-  font-size: 1.08333333em;
+  font-size: 0.91666667em;
 }
 .ui.input {
   font-size: 1em;
 }
 .ui.large.input {
-  font-size: 1.33333333em;
+  font-size: 1.16666667em;
 }
 .ui.big.input {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 .ui.huge.input {
-  font-size: 1.66666667em;
+  font-size: 1.41666667em;
 }
 .ui.massive.input {
-  font-size: 2em;
+  font-size: 1.75em;
 }
 
 
