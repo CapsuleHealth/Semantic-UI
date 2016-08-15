@@ -134,16 +134,16 @@
        Links
 --------------------*/
 
-@linkColor           : #4183C4;
+@linkColor           : @capsuleBlue;
 @linkUnderline       : none;
-@linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
+@linkHoverColor      : lighten(saturate(@linkColor, 20), 25, relative);
 @linkHoverUnderline  : @linkUnderline;
 
 /*-------------------
   Highlighted Text
 --------------------*/
 
-@highlightBackground      : #CCE2FF;
+@highlightBackground      : lighten(@capsuleBlue, 40%);
 @highlightColor           : @textColor;
 
 @inputHighlightBackground : rgba(100, 100, 100, 0.4);

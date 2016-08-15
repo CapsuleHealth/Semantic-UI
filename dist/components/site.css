@@ -101,11 +101,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
+  color: #0F3C6C;
   text-decoration: none;
 }
 a:hover {
-  color: #1e70bf;
+  color: #034b96;
   text-decoration: none;
 }
 
@@ -117,15 +117,15 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #CCE2FF;
+  background-color: #5ea1e9;
   color: #0F3C6C;
 }
 ::-moz-selection {
-  background-color: #CCE2FF;
+  background-color: #5ea1e9;
   color: #0F3C6C;
 }
 ::selection {
-  background-color: #CCE2FF;
+  background-color: #5ea1e9;
   color: #0F3C6C;
 }
 
