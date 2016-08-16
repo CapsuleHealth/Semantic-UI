@@ -4634,6 +4634,18 @@ input::selection {
   font-family: 'Circular-Pro-Book', san-serif;
 }
 
+/* look into why buttons.variables#@disabledBoxShadow isn't being picked up
+  https://github.com/Semantic-Org/Semantic-UI/issues/4438
+*/
+
+.ui.buttons .disabled.button,
+.ui.disabled.button,
+.ui.button:disabled,
+.ui.disabled.button:hover,
+.ui.disabled.active.button {
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset !important;
+}
+
 /*******************************
          Site Overrides
 *******************************/

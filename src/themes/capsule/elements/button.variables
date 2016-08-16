@@ -99,7 +99,7 @@
 
 /* Disabled */
 @disabledBackgroundImage: none;
-@disabledBoxShadow: none;
+@disabledBoxShadow: pleaseInheritThis;
 
 /* Pressed Down */
 @downBackgroundColor: #BABBBC;
