@@ -11590,15 +11590,15 @@ img.ui.bordered.image {
 /* browsers require these rules separate */
 
 .ui.input input::-webkit-input-placeholder {
-  color: #fbfdfe;
+  color: #cee3f8;
 }
 
 .ui.input input::-moz-placeholder {
-  color: #fbfdfe;
+  color: #cee3f8;
 }
 
 .ui.input input:-ms-input-placeholder {
-  color: #fbfdfe;
+  color: #cee3f8;
 }
 
 /*******************************
@@ -11680,17 +11680,17 @@ img.ui.bordered.image {
 
 .ui.input.focus input::-webkit-input-placeholder,
 .ui.input input:focus::-webkit-input-placeholder {
-  color: #75aeec;
+  color: #fbfdfe;
 }
 
 .ui.input.focus input::-moz-placeholder,
 .ui.input input:focus::-moz-placeholder {
-  color: #75aeec;
+  color: #fbfdfe;
 }
 
 .ui.input.focus input:-ms-input-placeholder,
 .ui.input input:focus:-ms-input-placeholder {
-  color: #75aeec;
+  color: #fbfdfe;
 }
 
 /*--------------------
@@ -17446,27 +17446,27 @@ ol.ui.horizontal.list li:before,
 /* browsers require these rules separate */
 
 .ui.form ::-webkit-input-placeholder {
-  color: #fbfdfe;
+  color: #cee3f8;
 }
 
 .ui.form :-ms-input-placeholder {
-  color: #fbfdfe;
+  color: #cee3f8;
 }
 
 .ui.form ::-moz-placeholder {
-  color: #fbfdfe;
+  color: #cee3f8;
 }
 
 .ui.form :focus::-webkit-input-placeholder {
-  color: #75aeec;
+  color: #fbfdfe;
 }
 
 .ui.form :focus:-ms-input-placeholder {
-  color: #75aeec;
+  color: #fbfdfe;
 }
 
 .ui.form :focus::-moz-placeholder {
-  color: #75aeec;
+  color: #fbfdfe;
 }
 
 /* Error Placeholder */

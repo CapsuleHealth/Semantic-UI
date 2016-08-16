@@ -306,22 +306,22 @@
 
 /* browsers require these rules separate */
 .ui.form ::-webkit-input-placeholder {
-  color: #fbfdfe;
+  color: #cee3f8;
 }
 .ui.form :-ms-input-placeholder {
-  color: #fbfdfe;
+  color: #cee3f8;
 }
 .ui.form ::-moz-placeholder {
-  color: #fbfdfe;
+  color: #cee3f8;
 }
 .ui.form :focus::-webkit-input-placeholder {
-  color: #75aeec;
+  color: #fbfdfe;
 }
 .ui.form :focus:-ms-input-placeholder {
-  color: #75aeec;
+  color: #fbfdfe;
 }
 .ui.form :focus::-moz-placeholder {
-  color: #75aeec;
+  color: #fbfdfe;
 }
 
 /* Error Placeholder */
