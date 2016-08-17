@@ -134,7 +134,7 @@
        Links
 --------------------*/
 
-@linkColor           : @capsuleBlue;
+@linkColor           : #5ea1e9;
 @linkUnderline       : none;
 @linkHoverColor      : lighten(saturate(@linkColor, 20), 25, relative);
 @linkHoverUnderline  : @linkUnderline;
