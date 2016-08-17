@@ -5,7 +5,7 @@
 .ui.form input {
   border-top: none;
   border-left: none;
-  border-bottom: 1px solid @borderColor;
+  border-bottom: 1px solid @capsuleTint50;
   border-right: none;
 }
 
