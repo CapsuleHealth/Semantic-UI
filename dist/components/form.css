@@ -103,8 +103,8 @@
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
   line-height: 1.2142em;
-  padding: 0.80956667em 1.16666667em;
-  font-size: 1em;
+  padding: 0.80956667em 0;
+  font-size: 1.5em;
   background: #FFFFFF;
   border: dontUseMeUseTheOverride;
   color: #0F3C6C;
@@ -128,7 +128,7 @@
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
   transition: color 0.1s ease, border-color 0.1s ease;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1.2857;
   resize: vertical;
 }
