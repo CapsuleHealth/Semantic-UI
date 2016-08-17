@@ -1,0 +1,7 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.inverted.segment:not(:first-child) {
+  border-top: @border;
+}

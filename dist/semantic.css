@@ -16307,6 +16307,14 @@ ol.ui.horizontal.list li:before,
 }
 
 /*******************************
+         Theme Overrides
+*******************************/
+
+.ui.inverted.segment:not(:first-child) {
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+/*******************************
          Site Overrides
 *******************************/
 /*!
