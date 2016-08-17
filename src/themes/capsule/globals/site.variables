@@ -6,7 +6,7 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Circular-Pro-Medium';
+@fontName          : 'Circular-Pro-Book';
 @fontSmoothing     : antialiased;
 
 @headerFont        : 'Circular-Pro-Bold', 'Helvetica Neue', Arial, Helvetica, sans-serif;
