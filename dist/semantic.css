@@ -17239,7 +17239,7 @@ ol.ui.horizontal.list li:before,
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
   line-height: 1.2142em;
-  padding: 0.80956667em 0;
+  padding: 0.5em 0;
   font-size: 1.5em;
   background: #FFFFFF;
   border: dontUseMeUseTheOverride;
